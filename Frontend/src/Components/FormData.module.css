@@ -1,0 +1,51 @@
+.formContainer{
+    display: flex;
+    background: #F5F8FF;
+    padding: 12px;
+    background: url(https://mdbcdn.b-cdn.net/img/Photos/new-templates/search-box/img4.webp);
+    align-items: center;
+    text-align: center;
+}
+
+.formInput{
+    padding: 12px;
+    text-align: center;
+}
+
+.formInput input,
+.formInput select{
+    margin-right: 5%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #D5D4DC;
+    margin: 20px;
+    width: 328px;
+    background: #F5F8FF;
+    display: inline;
+}
+
+.formHeading{
+    color: white;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.formHeading pre{
+    font-size: 35px;
+    margin-top:10px;
+    color: #06603e;
+    font-weight: 700;
+}
+
+.predictionData{
+    background: linear-gradient(#dc7e7e, #8087d6);    margin: 0 20%;
+    padding: 20px;
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    border-radius: 20px;
+    transition: 2s ease-in-out;
+}
